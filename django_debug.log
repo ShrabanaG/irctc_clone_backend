@@ -1,0 +1,290 @@
+INFO 2024-07-24 12:40:02,854 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-24 12:40:03,446 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-24 12:40:06,135 log Unauthorized: /api/trains/1/book/
+WARNING 2024-07-24 12:40:06,135 basehttp "POST /api/trains/1/book/ HTTP/1.1" 401 183
+WARNING 2024-07-24 12:40:09,072 log Unauthorized: /api/trains/1/book/
+WARNING 2024-07-24 12:40:09,073 basehttp "POST /api/trains/1/book/ HTTP/1.1" 401 183
+WARNING 2024-07-24 12:40:10,277 log Unauthorized: /api/trains/1/book/
+WARNING 2024-07-24 12:40:10,278 basehttp "POST /api/trains/1/book/ HTTP/1.1" 401 183
+WARNING 2024-07-24 12:40:11,439 log Unauthorized: /api/trains/1/book/
+WARNING 2024-07-24 12:40:11,440 basehttp "POST /api/trains/1/book/ HTTP/1.1" 401 183
+INFO 2024-07-24 12:40:41,227 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-24 12:40:42,144 autoreload Watching for file changes with StatReloader
+INFO 2024-07-24 12:41:35,363 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-24 12:41:35,909 autoreload Watching for file changes with StatReloader
+INFO 2024-07-24 12:41:57,191 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-24 12:41:57,851 autoreload Watching for file changes with StatReloader
+INFO 2024-07-24 12:42:58,381 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-24 12:42:59,028 autoreload Watching for file changes with StatReloader
+INFO 2024-07-24 12:43:04,978 decorators asdsadsadasdsadsadsas
+WARNING 2024-07-24 12:43:05,005 log Bad Request: /api/trains/1/book/
+WARNING 2024-07-24 12:43:05,007 basehttp "POST /api/trains/1/book/ HTTP/1.1" 400 62
+INFO 2024-07-24 12:43:15,791 decorators asdsadsadasdsadsadsas
+WARNING 2024-07-24 12:43:15,805 log Bad Request: /api/trains/1/book/
+WARNING 2024-07-24 12:43:15,806 basehttp "POST /api/trains/1/book/ HTTP/1.1" 400 62
+WARNING 2024-07-25 07:59:35,992 log Forbidden: /api/trains/create/
+WARNING 2024-07-25 07:59:35,993 basehttp "POST /api/trains/create/ HTTP/1.1" 403 28
+INFO 2024-07-25 07:59:53,326 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 07:59:54,031 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 07:59:57,294 basehttp "POST /api/trains/create/ HTTP/1.1" 201 51
+INFO 2024-07-25 08:00:37,141 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:00:37,972 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:00:47,195 basehttp "POST /api/trains/create/ HTTP/1.1" 201 51
+INFO 2024-07-25 08:02:07,426 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:02:08,105 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:02:17,641 basehttp "POST /api/trains/create/ HTTP/1.1" 201 51
+INFO 2024-07-25 08:03:15,798 autoreload /home/rahuldutta/myproject/myapp/serializers.py changed, reloading.
+INFO 2024-07-25 08:03:16,429 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:03:27,813 basehttp "POST /api/trains/create/ HTTP/1.1" 201 51
+ERROR 2024-07-25 08:05:23,874 log Internal Server Error: /api/trains/5/book
+Traceback (most recent call last):
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/trains/5/book/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-25 08:05:23,876 basehttp "POST /api/trains/5/book HTTP/1.1" 500 71377
+INFO 2024-07-25 08:05:34,473 decorators asdsadsadasdsadsadsas
+INFO 2024-07-25 08:05:34,506 basehttp "POST /api/trains/5/book/ HTTP/1.1" 201 76
+INFO 2024-07-25 08:10:20,283 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:15:16,783 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:15:17,606 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:16:11,997 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:16:12,606 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:16:24,822 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:16:25,423 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-25 08:17:00,932 log Not Found: /api/bookings/1
+WARNING 2024-07-25 08:17:00,934 basehttp "POST /api/bookings/1 HTTP/1.1" 404 3111
+WARNING 2024-07-25 08:17:09,179 log Not Found: /api/bookings/1/
+WARNING 2024-07-25 08:17:09,180 basehttp "GET /api/bookings/1/ HTTP/1.1" 404 3113
+WARNING 2024-07-25 08:17:10,445 log Not Found: /api/bookings/1/
+WARNING 2024-07-25 08:17:10,446 basehttp "GET /api/bookings/1/ HTTP/1.1" 404 3113
+INFO 2024-07-25 08:19:15,122 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-25 08:19:16,278 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:21:13,484 decorators asdsadsadasdsadsadsas
+ERROR 2024-07-25 08:21:13,621 log Internal Server Error: /api/bookings/1/
+Traceback (most recent call last):
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/rahuldutta/myproject/myapp/decorators.py", line 48, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/rahuldutta/myproject/myapp/views.py", line 132, in get_specific_booking
+    'arrival_time_at_source': train.arrival_time_at_source.strftime("%Y-%m-%d %H:%M:%S"),
+AttributeError: 'str' object has no attribute 'strftime'
+ERROR 2024-07-25 08:21:13,622 basehttp "GET /api/bookings/1/ HTTP/1.1" 500 103211
+INFO 2024-07-25 08:21:54,030 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:21:55,004 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:21:59,017 decorators asdsadsadasdsadsadsas
+INFO 2024-07-25 08:21:59,103 basehttp "GET /api/bookings/1/ HTTP/1.1" 200 186
+INFO 2024-07-25 08:24:39,451 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-25 08:24:40,425 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:25:32,578 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:25:33,249 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:27:21,393 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:27:21,934 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:27:43,198 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:27:43,734 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:28:03,793 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-25 08:28:04,370 autoreload Watching for file changes with StatReloader
+ERROR 2024-07-25 08:28:53,561 log Internal Server Error: /api/trains/1/update-seats
+Traceback (most recent call last):
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/trains/1/update-seats/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-25 08:28:53,562 basehttp "PATCH /api/trains/1/update-seats HTTP/1.1" 500 71520
+WARNING 2024-07-25 08:28:59,123 log Not Found: /api/trains/1/update-seats/
+WARNING 2024-07-25 08:28:59,124 basehttp "PATCH /api/trains/1/update-seats/ HTTP/1.1" 404 28
+INFO 2024-07-25 08:29:07,097 basehttp "PATCH /api/trains/5/update-seats/ HTTP/1.1" 200 81
+INFO 2024-07-25 08:29:57,931 basehttp "PATCH /api/trains/5/update-seats/ HTTP/1.1" 200 81
+INFO 2024-07-25 08:30:32,243 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:30:32,848 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:30:38,515 basehttp "PATCH /api/trains/5/update-seats/ HTTP/1.1" 200 81
+INFO 2024-07-25 08:31:40,525 basehttp "PATCH /api/trains/5/update-seats/ HTTP/1.1" 200 81
+INFO 2024-07-25 08:31:58,843 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:31:59,682 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:32:19,304 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:32:19,870 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:34:27,248 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:34:27,971 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:34:34,267 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:34:34,926 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:34:40,823 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:34:41,612 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:34:54,630 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:34:55,170 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:34:58,800 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:34:59,430 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:35:06,178 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:35:07,031 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:35:23,452 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-25 08:35:24,007 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:37:51,556 autoreload /home/rahuldutta/myproject/myapp/models.py changed, reloading.
+INFO 2024-07-25 08:37:52,142 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:40:06,473 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:40:07,049 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:40:18,904 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:40:19,547 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:40:39,788 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-25 08:40:40,384 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 08:41:20,351 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-25 08:41:21,111 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 09:35:42,390 autoreload Watching for file changes with StatReloader
+ERROR 2024-07-26 09:37:14,398 log Internal Server Error: /api/signup/
+Traceback (most recent call last):
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'role' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/rahuldutta/myproject/myapp/decorators.py", line 16, in _wrapped_view_func
+    return view_func(request, *args, **kwargs)
+  File "/home/rahuldutta/myproject/myapp/views.py", line 20, in signup
+    user = serializer.save()
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'role' in 'field list'")
+ERROR 2024-07-26 09:37:14,403 basehttp "POST /api/signup/ HTTP/1.1" 500 224162
+INFO 2024-07-26 09:38:32,093 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 09:38:36,255 basehttp "POST /api/signup/ HTTP/1.1" 201 70
+INFO 2024-07-26 09:39:06,610 basehttp "POST /api/login/ HTTP/1.1" 200 229
+INFO 2024-07-26 10:00:34,579 basehttp "OPTIONS /api/login HTTP/1.1" 301 0
+INFO 2024-07-26 10:00:43,347 basehttp "OPTIONS /api/login HTTP/1.1" 301 0
+INFO 2024-07-26 10:02:10,925 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-26 10:02:11,725 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 10:02:38,375 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-26 10:02:38,973 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 10:02:52,921 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-26 10:02:53,812 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 10:03:13,971 autoreload /home/rahuldutta/myproject/myproject/settings.py changed, reloading.
+INFO 2024-07-26 10:03:14,577 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 10:03:25,118 basehttp "OPTIONS /api/login HTTP/1.1" 200 0
+ERROR 2024-07-26 10:03:25,184 log Internal Server Error: /api/login
+Traceback (most recent call last):
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/rahuldutta/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-26 10:03:25,186 basehttp "POST /api/login HTTP/1.1" 500 72022
+INFO 2024-07-26 10:03:54,172 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2024-07-26 10:03:54,199 basehttp "POST /api/login/ HTTP/1.1" 200 229
+INFO 2024-07-26 10:06:11,010 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-26 10:06:11,897 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 10:06:59,292 basehttp "POST /api/login/ HTTP/1.1" 200 274
+INFO 2024-07-26 10:10:06,451 basehttp "POST /api/login/ HTTP/1.1" 200 274
+WARNING 2024-07-26 10:42:18,931 log Forbidden: /api/signup/
+WARNING 2024-07-26 10:42:18,932 basehttp "POST /api/signup/ HTTP/1.1" 403 28
+INFO 2024-07-26 10:49:54,989 autoreload /home/rahuldutta/myproject/myapp/serializers.py changed, reloading.
+INFO 2024-07-26 10:49:55,581 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 11:17:14,547 basehttp "GET /api/trains/availability?source=Station%20A&destination=Station%20B HTTP/1.1" 301 0
+INFO 2024-07-26 11:17:14,567 decorators asdsadsadasdsadsadsas
+INFO 2024-07-26 11:17:14,596 basehttp "GET /api/trains/availability/?source=Station%20A&destination=Station%20B HTTP/1.1" 200 61
+INFO 2024-07-26 11:25:38,295 basehttp "POST /api/login/ HTTP/1.1" 200 287
+INFO 2024-07-26 11:25:42,648 basehttp "OPTIONS /api/trains/availability/?source=Station+A&destination=Station+B HTTP/1.1" 200 0
+INFO 2024-07-26 11:25:42,654 decorators asdsadsadasdsadsadsas
+INFO 2024-07-26 11:25:42,673 basehttp "GET /api/trains/availability/?source=Station+A&destination=Station+B HTTP/1.1" 200 61
+INFO 2024-07-26 11:27:31,780 basehttp "POST /api/login/ HTTP/1.1" 200 287
+INFO 2024-07-26 11:32:52,948 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-26 11:32:53,575 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 11:33:02,637 autoreload /home/rahuldutta/myproject/myapp/views.py changed, reloading.
+INFO 2024-07-26 11:33:03,209 autoreload Watching for file changes with StatReloader
+INFO 2024-07-26 11:33:17,147 autoreload /home/rahuldutta/myproject/myapp/url.py changed, reloading.
+INFO 2024-07-26 11:33:17,853 autoreload Watching for file changes with StatReloader
